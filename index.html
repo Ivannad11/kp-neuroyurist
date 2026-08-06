@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Нейроюрист закрытого контура — Лайфинтерактив</title>
-<meta name="description" content="Нейроюрист закрытого контура: ведёт заседание вместо секретаря, собирает протокол автоматически, работает на локальном сервере суда без выхода в интернет.">
+<title>Нейроюрист в закрытом контуре — Лайфинтерактив</title>
+<meta name="description" content="Нейроюрист в закрытом контуре: ведёт заседание вместо секретаря, собирает протокол автоматически, работает на локальном сервере суда без выхода в интернет.">
 <meta name="theme-color" content="#0c131d">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230c131d'/%3E%3Cpath d='M50 20 L50 74 M32 30 L68 30 M30 30 L20 54 h20 z M70 30 L60 54 h20 z M36 78 h28' stroke='%23c8a765' stroke-width='5' fill='none' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>
@@ -517,7 +517,7 @@ table.mt .r{text-align:right;white-space:nowrap;font-weight:600;color:var(--ink)
   <div class="hero-inner"><div class="wrap">
     <h1 class="hero-title">
       <span class="l"><span style="animation-delay:.14s">Нейроюрист</span></span>
-      <span class="l"><span class="serif" style="animation-delay:.26s;font-weight:400">закрытого контура</span></span>
+      <span class="l"><span class="serif" style="animation-delay:.26s;font-weight:400">в закрытом контуре</span></span>
     </h1>
     <p class="hero-sub">Ведёт заседание вместо секретаря. Собирает протокол сам. Материалы дела остаются в контуре суда.</p>
     <dl class="hero-meta">
@@ -1311,38 +1311,15 @@ table.mt .r{text-align:right;white-space:nowrap;font-weight:600;color:var(--ink)
           </ul></div>
         </div>
         <div class="rblocks">
-          <figure class="shot shot--anim">
-            <div class="shot-img">
-            <svg viewBox="0 0 640 326" role="img" aria-label="Схема: замена модели без изменения рабочего места">
-                <text class="aK" x="24" y="30">ЗАМЕНА МОДЕЛИ</text>
-                <rect class="aBox" x="24" y="46" width="196" height="112" rx="3"/>
-                <text class="aM" x="40" y="70">Речевые движки</text>
-                <rect class="aSwap aBoxA" x="36" y="84" width="172" height="30" rx="3"/>
-                <text class="aT" x="52" y="104">Модель А</text>
-                <text class="aT" x="52" y="146">Модель Б</text>
-                <path class="aLine aFlow" d="M228 102 H272"/>
-                <g class="aS aS-2">
-                  <rect class="aBox" x="280" y="46" width="152" height="112" rx="3"/>
-                  <text class="aK" x="296" y="72">СЛОЙ АБСТРАКЦИИ</text>
-                  <text class="aT" x="296" y="98">Единый</text>
-                  <text class="aT" x="296" y="120">интерфейс</text>
-                  <text class="aM" x="296" y="142">движок скрыт</text>
-                </g>
-                <path class="aLine aFlow" d="M440 102 H484"/>
-                <g class="aS aS-3">
-                  <rect class="aBox" x="492" y="46" width="124" height="112" rx="3"/>
-                  <text class="aT" x="508" y="76">Рабочее</text>
-                  <text class="aT" x="508" y="98">место</text>
-                  <text class="aM" x="508" y="122">не меняется</text>
-                </g>
-                <line class="aMut" x1="24" y1="196" x2="616" y2="196" stroke-dasharray="4 5"/>
-                <text class="aA" x="24" y="226">Модель точнее — подключается настройкой</text>
-                <text class="aM" x="24" y="252">Сценарии, шаблоны и права остаются прежними. Качество сверяется цифрами:</text>
-                <text class="aM" x="24" y="272">WER — ошибки в словах, DER — ошибки в говорящих.</text>
-              </svg>
-            </div>
-            <figcaption class="shot-cap"><span class="sk">Схема</span><b>Замена модели ничего не ломает</b>
-              <p>Движок скрыт слоем абстракции: более точная модель подключается настройкой, а сценарии, шаблоны и права остаются прежними.</p></figcaption>
+          <figure class="shot shot--video">
+            <div class="shot-img"><video src="media/v11.mp4" poster="media/v11.jpg" controls preload="metadata" playsinline></video><button class="playbtn" type="button" aria-label="Смотреть ролик"></button></div>
+            <figcaption class="shot-cap"><span class="sk">Видео · 0:13</span><b>Запись становится текстом</b>
+              <p>Из списка записей — в карточку заседания: транскрибация 100 %, девять минут звука разобраны, расшифровка на месте, резюме собирается следом.</p></figcaption>
+          </figure>
+          <figure class="shot shot--video">
+            <div class="shot-img"><video src="media/v12.mp4" poster="media/v12.jpg" controls preload="metadata" playsinline></video><button class="playbtn" type="button" aria-label="Смотреть ролик"></button></div>
+            <figcaption class="shot-cap"><span class="sk">Видео · 0:15</span><b>Модель и источники выбираются в окне запроса</b>
+              <p>Модель на стенде — локальная, qwen3.6-27b, и меняется в том же поле. Рядом отмечается, с чем работать: архив конференций, кодексы, MCP-инструменты, доверенные skills.</p></figcaption>
           </figure>
         </div>
       
@@ -1428,44 +1405,10 @@ table.mt .r{text-align:right;white-space:nowrap;font-weight:600;color:var(--ink)
           
         </div>
         <div class="rblocks">
-          <figure class="shot shot--anim">
-            <div class="shot-img">
-            <svg viewBox="0 0 640 326" role="img" aria-label="Схема: настройка шаблона выгрузки">
-                <text class="aK" x="24" y="30">ШАБЛОН ВЫГРУЗКИ</text>
-                <g class="aS">
-                  <rect class="aBox" x="24" y="46" width="180" height="118" rx="3"/>
-                  <text class="aT" x="40" y="72">Форма суда</text>
-                  <rect class="aFillMut" x="40" y="88" width="148" height="10" rx="2" opacity=".28"/>
-                  <rect class="aFill aFillAcc" x="40" y="88" width="148" height="10" rx="2" opacity=".7"/>
-                  <rect class="aFillMut" x="40" y="110" width="148" height="10" rx="2" opacity=".28"/>
-                  <rect class="aFill aFillAcc" x="40" y="110" width="148" height="10" rx="2" opacity=".7" style="animation-delay:.5s"/>
-                  <rect class="aFillMut" x="40" y="132" width="112" height="10" rx="2" opacity=".28"/>
-                  <rect class="aFill aFillAcc" x="40" y="132" width="112" height="10" rx="2" opacity=".7" style="animation-delay:1s"/>
-                </g>
-                <path class="aLine aFlow" d="M212 104 H256"/>
-                <g class="aS aS-2">
-                  <rect class="aBox" x="264" y="46" width="144" height="118" rx="3"/>
-                  <text class="aT" x="280" y="72">Прогон</text>
-                  <text class="aM" x="280" y="96">реквизиты</text>
-                  <text class="aM" x="280" y="116">подставлены</text>
-                  <text class="aM" x="280" y="140">пустые подсвечены</text>
-                </g>
-                <path class="aLine aFlow" d="M416 104 H460"/>
-                <g class="aS aS-3">
-                  <rect class="aBoxA" x="468" y="46" width="148" height="118" rx="3"/>
-                  <path class="aLine" d="M492 74 h40 l12 12 v46 h-52 z"/>
-                  <path class="aMut" d="M532 74 v12 h12"/>
-                  <text class="aA" x="556" y="98">DOCX</text>
-                  <text class="aM" x="492" y="150">в формате суда</text>
-                </g>
-                <line class="aMut" x1="24" y1="198" x2="616" y2="198" stroke-dasharray="4 5"/>
-                <text class="aA" x="24" y="228">Формат согласуем до начала работ</text>
-                <text class="aM" x="24" y="254">Шаблон правит администратор суда, без обращения к разработчику</text>
-                <text class="aM" x="24" y="274">и без выпуска новой версии.</text>
-              </svg>
-            </div>
-            <figcaption class="shot-cap"><span class="sk">Схема</span><b>Шаблон выгрузки правит администратор</b>
-              <p>Форма протокола настраивается под суд, реквизиты подставляются на прогоне, незаполненные поля подсвечиваются. Результат — DOCX в формате суда.</p></figcaption>
+          <figure class="shot shot--video">
+            <div class="shot-img"><video src="media/v14.mp4" poster="media/v14.jpg" controls preload="metadata" playsinline></video><button class="playbtn" type="button" aria-label="Смотреть ролик"></button></div>
+            <figcaption class="shot-cap"><span class="sk">Видео · 0:15</span><b>Протокол собирается по разделам</b>
+              <p>Шаблон промпта court_hearing даёт готовую структуру: общие сведения, ход заседания с таймкодами, разъяснение порядка обжалования, краткий итог и отдельным блоком — неясности транскрипции. Выгрузка — кнопка «Экспорт» в шапке.</p></figcaption>
           </figure>
         </div>
       
@@ -1505,47 +1448,10 @@ table.mt .r{text-align:right;white-space:nowrap;font-weight:600;color:var(--ink)
           
         </div>
         <div class="rblocks">
-          <figure class="shot shot--anim">
-            <div class="shot-img">
-            <svg viewBox="0 0 640 326" role="img" aria-label="Схема: подключение источника через коннектор">
-                <text class="aK" x="24" y="30">ПОДКЛЮЧЕНИЕ ИСТОЧНИКА</text>
-                <g class="aS">
-                  <rect class="aBox" x="24" y="46" width="144" height="96" rx="3"/>
-                  <text class="aT" x="40" y="76">Источник</text>
-                  <text class="aM" x="40" y="98">СПС, архив,</text>
-                  <text class="aM" x="40" y="118">ведомственная база</text>
-                </g>
-                <path class="aLine aFlow" d="M176 94 H204"/>
-                <g class="aS aS-2">
-                  <rect class="aBox" x="212" y="46" width="128" height="96" rx="3"/>
-                  <text class="aT" x="228" y="76">Коннектор</text>
-                  <text class="aM" x="228" y="98">тип, доступ,</text>
-                  <text class="aM" x="228" y="118">расписание</text>
-                </g>
-                <path class="aLine aFlow" d="M348 94 H388"/>
-                <g class="aS aS-3">
-                  <rect class="aBox" x="396" y="46" width="128" height="96" rx="3"/>
-                  <text class="aT" x="412" y="76">Индексация</text>
-                  <rect class="aFillMut" x="412" y="94" width="96" height="6" rx="3" opacity=".3"/>
-                  <rect class="aFill aFillAcc" x="412" y="94" width="96" height="6" rx="3"/>
-                  <text class="aM" x="412" y="122">внутри периметра</text>
-                </g>
-                <path class="aLine aFlow" d="M532 94 H572"/>
-                <g class="aS aS-4">
-                  <rect class="aBoxA" x="536" y="150" width="80" height="52" rx="3"/>
-                </g>
-                <path class="aLine" d="M576 94 v40" opacity=".5"/>
-                <g class="aPop">
-                  <text class="aA" x="548" y="176">Ответ</text>
-                  <text class="aM" x="548" y="194">со ссылкой</text>
-                </g>
-                <line class="aMut" x1="24" y1="228" x2="616" y2="228" stroke-dasharray="4 5"/>
-                <text class="aA" x="24" y="256">Следующий источник подключается так же</text>
-                <text class="aM" x="24" y="282">Коннектор не расширяет права: чужое дело не видно и через новый источник.</text>
-              </svg>
-            </div>
-            <figcaption class="shot-cap"><span class="sk">Схема</span><b>Новый источник — тот же путь</b>
-              <p>Коннектор описывает тип, доступ и расписание, индексация идёт внутри периметра. Прав он не добавляет: чужое дело не видно и через новый источник.</p></figcaption>
+          <figure class="shot shot--video">
+            <div class="shot-img"><video src="media/v13.mp4" poster="media/v13.jpg" controls preload="metadata" playsinline></video><button class="playbtn" type="button" aria-label="Смотреть ролик"></button></div>
+            <figcaption class="shot-cap"><span class="sk">Видео · 0:27</span><b>Вопрос по кодексу — ответ со ссылкой</b>
+              <p>Сейчас в контуре стенда — загруженные кодексы: индекс находит три фрагмента за 477 мс, ответ по статье 270 АПК РФ идёт со списком источников — файл кодекса и конкретная глава. КонсультантПлюс подключается тем же коннектором.</p></figcaption>
           </figure>
         </div>
       
@@ -1894,7 +1800,7 @@ table.mt .r{text-align:right;white-space:nowrap;font-weight:600;color:var(--ink)
       <div class="ct"><div class="k">Сайт</div><a href="https://lifeinteractive.ru" target="_blank" rel="noopener">lifeinteractive.ru</a></div>
     </div>
 
-    <p class="small" style="margin-top:clamp(28px,3.8vw,48px)">Москва, Большая Новодмитровская, 36, дизайн-завод «Флакон» · Коммерческое предложение 2026 · Сроки и состав работ уточняются по результатам обследования.</p>
+    <p class="small" style="margin-top:clamp(28px,3.8vw,48px)">Москва, Мясницкая, 47 · Коммерческое предложение 2026 · Сроки и состав работ уточняются по результатам обследования.</p>
   </div>
 </section>
 
